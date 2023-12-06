@@ -1,0 +1,104 @@
+body {
+    background-color: #FDF7E4;
+    padding: 0%;
+    margin: 0%;
+}
+.containerAdd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 15%;
+}
+
+.boxAdd {
+    height: 120px;
+    width: 100%;
+}
+
+.containerButton {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.addBook {
+    height: 65px;
+    width: 100px;
+    background-color: #DED0B6;
+    color: #FDF7E4;
+    border: 1px solid #BBAB8C;
+    font-size: 25px;
+    border-radius: 15%;
+}
+
+.addBook:hover {
+    background-color: #BBAB8C;
+}
+
+.containerInfo {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.boxInfo { 
+    position: fixed;
+    z-index: 1;
+    height: 500px;
+    width: 450px;
+    background-color: #DED0B6;
+    text-align: center;
+    border-radius: 15px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input {
+    background-color: #FDF7E4;
+    border: 1px solid #FAEED1;
+    width: 70%;
+    height: 25px;
+    color: #7d6945;
+}
+
+input:focus {
+    outline: none;
+}
+
+h2, p {
+    color: #7d6945;
+}
+
+.containerInfoButton {
+    margin-top: 50px
+}
+.confirmBook, 
+.cancelBook {
+    height: 50px;
+    width: 70px;
+    background-color: #FDF7E4;
+    border: 1px solid #FAEED1;;
+    margin-right: 15px;
+    margin-left: 15px;
+    border-radius: 5px;
+    color: #7d6945;
+}
+
+.confirmBook:hover,
+.cancelBook:hover {
+    background-color: #FAEED1;
+}
+
+.bookBox {
+    padding: 10px;
+    background-color: #DED0B6;
+    border: 1px solid #BBAB8C;
+}
+
+.bookBox p{
+    color: #FDF7E4; 
+    font-size: 20px;
+}
